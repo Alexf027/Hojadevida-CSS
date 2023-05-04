@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace
+}
+main {
+    display: flex;
+}
+.izquierdo {
+    justify-content: start;
+    width: 40%;
+    background-color: rgb(8, 72, 118);
+    color: white;
+}
+.foto {
+    display: flex;
+    justify-content: center;
+}
+.foto img {
+    height: 25vh;
+    margin-top: 30px;
+    background-color: white;
+    padding: 0 50% 0 50%;
+}
+h3 {
+    margin: 10px;
+    text-align: center;
+}
+.contacto {
+    margin-top: 10px;
+    display: flex;
+    height: 20vh;
+}
+.contact-img{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.contact-img img{
+    border-radius: 0 .7rem .7rem 0;
+    padding: 3px 9px 3px 50px;
+    margin-bottom: 5px;
+    background-color: white;
+    height: 2rem;
+}
+.contact-p {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.p1 {
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    align-items: center;  
+} 
+a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 8px;
+    align-items: center;
+}
+.habilidades, .sofware {
+    display: flex;
+    justify-content: space-around; 
+    width: 100%;
+    margin: 0 20px;
+    height: 15vh;
+}
+.p-habilidades {
+    margin-top: 3px;
+    margin-left: 20px;
+    width: 30%;   
+}
+.clase-habil {
+    margin-right: 20px;
+    width: 50%;
+    flex-direction: column;
+}
+.habilidad, .sofwares {
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: rgb(3, 51, 85);
+    border-radius: .4rem;
+}
+.git {
+    border-radius: .2rem;
+    width: 90%;
+    background-color: white;
+}
+.html {
+    border-radius: .2rem;
+    width: 95%;
+    background-color: white;
+}
+.js {
+    border-radius: .2rem;
+    width: 85%;
+    background-color: white;
+}
+.mern {
+    border-radius: .2rem;
+    width: 90%;
+    background-color: white;
+}
+.p2, .p3 {
+    
+    align-items: center;
+    padding: 9px;
+    margin-top: 3px;
+}
+.vscode {
+    border-radius: .2rem;
+    width: 90%;
+    background-color: white;
+}
+.offi {
+    border-radius: .2rem;
+    width: 70%;
+    background-color: white;
+}
+.hobbi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+.hobbi img {
+    border-radius: .3rem;
+    padding: 4px;
+    background-color: white;
+    height: 2rem;
+    margin: 3px 7px 30px 0 ;
+}
+.derecho {
+    padding: 15px;
+    justify-content: center;
+    width: 60%; 
+}
+.titulo {
+    margin-top: 17px;
+}
+h1{   
+    align-items: center;
+    text-align: center;
+    font-size:70px;
+}
+.titulo p {
+    align-items: center;
+    text-align: center;
+    color: rgb(8, 72, 118);
+    font-size: 35px;
+}
+.pf{
+    margin-top: 20px;
+    text-align: start;
+    color: rgb(8, 72, 118);
+}
+.pt {
+    margin-top: 15px;
+}
+.imfoper{
+    width: 208px;
+    border-radius: .5rem;
+    padding: 7px;
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(8, 72, 118);
+}
+.educ {
+    width: 100px;
+    border-radius: .5rem;
+    padding: 7px;
+    margin-top: 15px;
+    color: white;
+    background-color: rgb(8, 72, 118);
+}
+.edu1, .edu2 {
+    display: flex;
+}
+.p4 {
+    margin-left: 80PX;
+    padding: 15px;
+}
+.p5 {
+    padding: 15px;
+}
+.exp {
+    width: 120px;
+    border-radius: .5rem;
+    padding: 7px;
+    margin-top: 10PX;
+    color: white;
+    background-color: rgb(8, 72, 118);
+}
+.expe1, .expe2, .expe3, .expe4 {
+    display: flex;
+}
+.p6 {
+    padding: 15px;
+}
+.p7 {
+    margin-left: 80PX;
+    padding: 15px;  
+}
